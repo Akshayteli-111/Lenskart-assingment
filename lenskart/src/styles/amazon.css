@@ -32,7 +32,10 @@
     transform: scale(1.2);
     z-index: 2;
   }
-  /* //author */
+  
+.btn:hover{
+    background-color: green;
+ }
   .image_box img {
     width: 150px;
     height: 200px;
