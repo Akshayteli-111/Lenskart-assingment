@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Amazon from "./components/amazon.js";
 import Navbar from "./components/navbar.js";
 import Cart from "./components/cart.js";
@@ -21,9 +21,7 @@ const App = () => {
     setCart([...arr]);
   };
 
- // useEffect(() => {
-   // console.log("cart change");
-  //}, [cart]);
+ 
 
   return (
     <React.Fragment>
